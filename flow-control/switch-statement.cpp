@@ -4,6 +4,16 @@ using namespace std;
 /*statement switch memungkinkan kita untuk mengeksekusi kode
   program dengan banyak alternatif kondisi*/
 
+  /*switch (expression) {
+    case a:
+        kode program
+        break;
+    
+    default b: 
+        kode program
+        break;
+    }*/
+
 int nilaiKalkulus;
 
 int main() {
@@ -33,4 +43,10 @@ int main() {
         cout << "Nilai yang dimasukan tidak valid, masukan nilai 1-5" << endl;
         break;
     }
+    /*Cara kerja : setiap case di switch statement dilakukan pengecekan dengan value nilaiKalkulus,
+                   jika ada yang cocok maka kode program di case tersebut dieksekusi, dan switch
+                   statement berakhir. Jika tidak ada yang cocok maka kode program di default di eksekusi,
+                   dan switch statement berakhir*/
+
+    return 0;
 }
