@@ -17,7 +17,7 @@ Alamat dari variabel bisa kita dapatkan dengan cara menambahkan ampersand (&) di
     cout << &value1 << " " << &value2;
     // output : 0x97fb3ff88c 0x97fb3ff888
 ```
-![]()
+![](./img/how-pointer-works.jpg)
 - Pertama kita insialisasi nilai value1 = 5, kemudian value2 = 3
 - Kedua kita menggunakan operator-alamat untuk mengetahui alamat dari variabel value1 dan value2
 
@@ -46,7 +46,7 @@ Sebagai contoh deference operator bisa digunakan untuk mengakses variabel yang d
 Disini :
 -```&value``` dibaca sebagai alamat dari variabel value
 -```*adressOfValue``` bisaa dibaca sebagai value yang ditunjuk oleh alamat variabel value
-![]()
+![](./img/how-deference-operator-works.jpg)
 
 ### Deklarasi pointer
 Karena kemampuan pointer untuk secara langsung merujuk ke nilai yang ditunjuknya, pointer memiliki properti yang berbeda saat menunjuk ke char daripada saat menunjuk ke int atau float. Setelah direferensikan, jenisnya perlu diketahui. Dan untuk itu, deklarasi pointer perlu menyertakan tipe data yang akan ditunjuk pointer.
